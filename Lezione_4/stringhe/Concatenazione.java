@@ -20,3 +20,4 @@ public class Concatenazione
         System.out.println("Numero convertito in stringa: " + sNum2);
     }
 }
+

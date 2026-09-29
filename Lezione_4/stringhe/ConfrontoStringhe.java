@@ -1,6 +1,6 @@
 public class ConfrontoStringhe 
 {
-     public static void main(String[] args) 
+    public static void main(String[] args) 
     {
         System.out.println("\n--- CONFRONTO TRA STRINGHE ---");
         String s1 = new String("ciao");
