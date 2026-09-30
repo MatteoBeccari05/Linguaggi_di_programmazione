@@ -9,9 +9,11 @@ Questa repository contiene una raccolta di programmi ed esercizi scritti in **Ja
 
 Il progetto è organizzato in cartelle progressive che seguono l'andamento delle lezioni:
 
-*   📁 **[Lezione_1](./Lezione_1)**: Primi esercizi e concetti introduttivi.
-*   📁 **[Lezione_2](./Lezione_2)**: Approfondimenti sui fondamenti di Java.
-*   📁 **[Lezione_3](./Lezione_3)**: Esercizi avanzati della terza lezione.
+*   📁 **[Lezione_1](./Lezione_1)**: Concetti introduttivi (Hello World!).
+*   📁 **[Lezione_2](./Lezione_2)**: Primi esercizi con classe Counter.
+*   📁 **[Lezione_3](./Lezione_3)**: Esercizi su overload ed oggetti composti.
+*   📁 **[Lezione_4](./Lezione_4)**: Esercizi sulle stringhe.
+*   📁 **[Lezione_5](./Lezione_5)**: Esercizi sugli array e sui wrapper.
 *   📄 **`somma.java`**: Semplice script standalone per calcolare la somma.
 
 *(La struttura verrà aggiornata man mano che verranno caricate nuove lezioni).*
