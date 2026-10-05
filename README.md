@@ -14,8 +14,8 @@ Il progetto è organizzato in cartelle progressive che seguono l'andamento delle
 *   📁 **[Lezione_3](./Lezione_3)**: Esercizi su overload ed oggetti composti.
 *   📁 **[Lezione_4](./Lezione_4)**: Esercizi sulle stringhe.
 *   📁 **[Lezione_5](./Lezione_5)**: Esercizi sugli array e sui wrapper.
+*   📁 **[Lezione_6](./Lezione_6)**: Esercizi su ereditarietà e polimorfismo.
 *   📁 **[Tutorato](./Tutorato)**: Esercizi svolti durante i tutorati.
-*   📄 **`somma.java`**: Semplice script standalone per calcolare la somma.
 
 *(La struttura verrà aggiornata man mano che verranno caricate nuove lezioni).*
 
