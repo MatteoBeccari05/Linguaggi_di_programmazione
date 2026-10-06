@@ -2,7 +2,7 @@
 """Rigenera la sezione "Struttura della Repository" del README.md.
 
 Il testo tra i marcatori <!-- STRUCTURE:START --> e <!-- STRUCTURE:END -->
-viene sostituito con una tabella delle cartelle e un albero dei file .java.
+viene sostituito con una tabella delle cartelle e del numero di file .java.
 Le descrizioni si modificano in .github/descrizioni.json.
 """
 import json
@@ -25,22 +25,6 @@ def java_files(folder: Path):
     return sorted(folder.rglob("*.java"), key=natural_key)
 
 
-def build_tree(folder: Path, prefix=""):
-    """Albero testuale con sole cartelle e file .java."""
-    entries = [
-        e for e in sorted(folder.iterdir(), key=natural_key)
-        if not e.name.startswith(".") and e.name not in IGNORE
-        and (e.suffix == ".java" or (e.is_dir() and java_files(e)))
-    ]
-    lines = []
-    for i, e in enumerate(entries):
-        last = i == len(entries) - 1
-        lines.append(f"{prefix}{'└── ' if last else '├── '}{e.name}{'/' if e.is_dir() else ''}")
-        if e.is_dir():
-            lines += build_tree(e, prefix + ("    " if last else "│   "))
-    return lines
-
-
 def main():
     descr = json.loads(DESCR.read_text(encoding="utf-8")) if DESCR.exists() else {}
     folders = sorted(
@@ -59,18 +43,9 @@ def main():
     for f in root_java:
         out.append(f"| 📄 [`{f.name}`]({REPO_URL}/blob/main/{f.name}) | File nella root | 1 |")
 
-    tree = [f"{ROOT.name}/"]
-    for d in folders:
-        tree.append(f"├── {d.name}/")
-        tree += ["│   " + l for l in build_tree(d)]
-    for f in root_java:
-        tree.append(f"├── {f.name}")
-    if tree:
-        tree[-1] = tree[-1].replace("├──", "└──", 1)
-
     block = (
-        f"{START}\n\n" + "\n".join(out) + "\n\n```text\n" + "\n".join(tree) + "\n```\n\n"
-        "> *Sezione generata automaticamente: non modificarla a mano.*\n\n" + END
+        f"{START}\n\n" + "\n".join(out) + "\n\n"
+        "> *Tabella generata automaticamente: non modificarla a mano.*\n\n" + END
     )
 
     text = README.read_text(encoding="utf-8")
