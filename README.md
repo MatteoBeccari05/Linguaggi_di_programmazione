@@ -39,34 +39,8 @@ Può essere utile come:
 
 ## 📂 Struttura della Repository
 
-| # | Cartella | Contenuto | Argomenti chiave |
-|:-:|----------|-----------|------------------|
-| 1 | 📁 [**Lezione_1**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_1) | Concetti introduttivi | `Hello World!`, struttura di un programma, compilazione |
-| 2 | 📁 [**Lezione_2**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_2) | Primi esercizi con la classe `Counter` | classi, campi, metodi, costruttori |
-| 3 | 📁 [**Lezione_3**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_3) | Overload e oggetti composti | overloading, composizione, riferimenti |
-| 4 | 📁 [**Lezione_4**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_4) | Esercizi sulle stringhe | `String`, immutabilità, metodi di manipolazione |
-| 5 | 📁 [**Lezione_5**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_5) | Array e wrapper | array mono/multidimensionali, classi wrapper, autoboxing |
-| 6 | 📁 [**Lezione_6**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_6) | Ereditarietà e polimorfismo | `extends`, overriding, binding dinamico |
-| ★ | 📁 [**Tutorato**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Tutorato) | Esercizi svolti durante i tutorati | esercizi di consolidamento |
-| ☕ | 📄 [`somma.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/somma.java) | Programma di esempio nella root | ideale per un primo test di compilazione |
-
-### 🌳 Vista ad albero
-
-```text
-Linguaggi_di_programmazione/
-├── 📁 Lezione_1/      → Hello World!
-├── 📁 Lezione_2/      → Classe Counter
-├── 📁 Lezione_3/      → Overload & oggetti composti
-├── 📁 Lezione_4/      → Stringhe
-├── 📁 Lezione_5/      → Array & wrapper
-├── 📁 Lezione_6/      → Ereditarietà & polimorfismo
-├── 📁 Tutorato/       → Esercizi dei tutorati
-├── 📄 somma.java
-├── 📄 .gitattributes
-└── 📄 README.md
-```
-
-> *La struttura verrà aggiornata man mano che verranno caricate nuove lezioni.*
+<!-- STRUCTURE:START -->
+<!-- STRUCTURE:END -->
 
 ---
 
