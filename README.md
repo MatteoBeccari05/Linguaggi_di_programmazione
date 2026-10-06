@@ -253,21 +253,7 @@ java NomeClasse     # esegui la classe che contiene il main
 | `Error: Could not find or load main class` | Sei nella cartella sbagliata o c'è un package | Controlla la cartella e il nome completo della classe |
 | `class X is public, should be declared in a file named X.java` | Nome file ≠ nome classe | Rinomina il file o la classe |
 
----
 
-## 🗺️ Roadmap
-
-- [x] Lezione 1 – Concetti introduttivi
-- [x] Lezione 2 – Classe `Counter`
-- [x] Lezione 3 – Overload e oggetti composti
-- [x] Lezione 4 – Stringhe
-- [x] Lezione 5 – Array e wrapper
-- [x] Lezione 6 – Ereditarietà e polimorfismo
-- [x] Tutorato 1
-- [ ] Prossime lezioni (classi astratte, interfacce, eccezioni, …)
-- [ ] Ulteriori tutorati
-
----
 
 ## 🤝 Contribuire
 
