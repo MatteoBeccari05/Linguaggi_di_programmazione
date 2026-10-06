@@ -1,9 +1,37 @@
 {
-  "Lezione_1": "Concetti introduttivi (Hello World!)",
-  "Lezione_2": "Primi esercizi con classe Counter",
-  "Lezione_3": "Esercizi su overload ed oggetti composti",
-  "Lezione_4": "Esercizi sulle stringhe",
-  "Lezione_5": "Esercizi sugli array e sui wrapper",
-  "Lezione_6": "Esercizi su ereditarietà e polimorfismo",
-  "Tutorato": "Esercizi svolti durante i tutorati"
+  "Lezione_1": {
+    "icona": "🟢",
+    "titolo": "Concetti introduttivi (Hello World!)",
+    "tag": ["sintassi", "main", "compilazione"]
+  },
+  "Lezione_2": {
+    "icona": "🧱",
+    "titolo": "Primi esercizi con classe Counter",
+    "tag": ["classi", "campi", "metodi", "costruttori"]
+  },
+  "Lezione_3": {
+    "icona": "🔁",
+    "titolo": "Esercizi su overload ed oggetti composti",
+    "tag": ["overload", "composizione", "riferimenti"]
+  },
+  "Lezione_4": {
+    "icona": "🔤",
+    "titolo": "Esercizi sulle stringhe",
+    "tag": ["String", "immutabilità", "manipolazione"]
+  },
+  "Lezione_5": {
+    "icona": "📦",
+    "titolo": "Esercizi sugli array e sui wrapper",
+    "tag": ["array", "wrapper", "autoboxing"]
+  },
+  "Lezione_6": {
+    "icona": "🧬",
+    "titolo": "Esercizi su ereditarietà e polimorfismo",
+    "tag": ["extends", "overriding", "polimorfismo"]
+  },
+  "Tutorato": {
+    "icona": "🎓",
+    "titolo": "Esercizi svolti durante i tutorati",
+    "tag": ["ripasso", "esercizi"]
+  }
 }
