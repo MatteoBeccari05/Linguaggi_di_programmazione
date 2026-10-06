@@ -41,18 +41,132 @@ Può essere utile come:
 
 <!-- STRUCTURE:START -->
 
-| Cartella | Descrizione | File `.java` |
-|----------|-------------|:------------:|
-| 📁 [**Lezione_1**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_1) | Concetti introduttivi (Hello World!) | 2 |
-| 📁 [**Lezione_2**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_2) | Primi esercizi con classe Counter | 10 |
-| 📁 [**Lezione_3**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_3) | Esercizi su overload ed oggetti composti | 5 |
-| 📁 [**Lezione_4**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_4) | Esercizi sulle stringhe | 9 |
-| 📁 [**Lezione_5**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_5) | Esercizi sugli array e sui wrapper | 11 |
-| 📁 [**Lezione_6**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_6) | Esercizi su ereditarietà e polimorfismo | 27 |
-| 📁 [**Tutorato**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Tutorato) | Esercizi svolti durante i tutorati | 4 |
-| 📄 [`somma.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/somma.java) | File nella root | 1 |
+![cartelle](https://img.shields.io/badge/cartelle-7-blue?style=flat-square&logo=openjdk&logoColor=white) ![file%20Java](https://img.shields.io/badge/file%20Java-69-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 
-> *Tabella generata automaticamente: non modificarla a mano.*
+| | Cartella | Argomento | Concetti chiave | File | |
+|:-:|----------|-----------|-----------------|:----:|:-:|
+| 🟢 | **Lezione_1** | Concetti introduttivi (Hello World!) | `sintassi` `main` `compilazione` | ![file](https://img.shields.io/badge/file-2-ED8B00?style=flat-square&logo=openjdk&logoColor=white) | [![Apri](https://img.shields.io/badge/Apri-→-0366d6?style=flat-square)](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_1) |
+| 🧱 | **Lezione_2** | Primi esercizi con classe Counter | `classi` `campi` `metodi` `costruttori` | ![file](https://img.shields.io/badge/file-10-ED8B00?style=flat-square&logo=openjdk&logoColor=white) | [![Apri](https://img.shields.io/badge/Apri-→-0366d6?style=flat-square)](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_2) |
+| 🔁 | **Lezione_3** | Esercizi su overload ed oggetti composti | `overload` `composizione` `riferimenti` | ![file](https://img.shields.io/badge/file-5-ED8B00?style=flat-square&logo=openjdk&logoColor=white) | [![Apri](https://img.shields.io/badge/Apri-→-0366d6?style=flat-square)](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_3) |
+| 🔤 | **Lezione_4** | Esercizi sulle stringhe | `String` `immutabilità` `manipolazione` | ![file](https://img.shields.io/badge/file-9-ED8B00?style=flat-square&logo=openjdk&logoColor=white) | [![Apri](https://img.shields.io/badge/Apri-→-0366d6?style=flat-square)](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_4) |
+| 📦 | **Lezione_5** | Esercizi sugli array e sui wrapper | `array` `wrapper` `autoboxing` | ![file](https://img.shields.io/badge/file-11-ED8B00?style=flat-square&logo=openjdk&logoColor=white) | [![Apri](https://img.shields.io/badge/Apri-→-0366d6?style=flat-square)](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_5) |
+| 🧬 | **Lezione_6** | Esercizi su ereditarietà e polimorfismo | `extends` `overriding` `polimorfismo` | ![file](https://img.shields.io/badge/file-27-ED8B00?style=flat-square&logo=openjdk&logoColor=white) | [![Apri](https://img.shields.io/badge/Apri-→-0366d6?style=flat-square)](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_6) |
+| 🎓 | **Tutorato** | Esercizi svolti durante i tutorati | `ripasso` `esercizi` | ![file](https://img.shields.io/badge/file-4-ED8B00?style=flat-square&logo=openjdk&logoColor=white) | [![Apri](https://img.shields.io/badge/Apri-→-0366d6?style=flat-square)](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Tutorato) |
+| 📄 | **somma.java** | File nella root | — | ![file](https://img.shields.io/badge/file-1-ED8B00?style=flat-square&logo=openjdk&logoColor=white) | [![Apri](https://img.shields.io/badge/Apri-→-0366d6?style=flat-square)](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/somma.java) |
+
+#### 🔎 Esplora i file
+
+<details>
+<summary>🟢 <b>Lezione_1</b> — 2 file</summary>
+
+- [`Hello.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_1/Hello.java)
+- [`lettura.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_1/lettura.java)
+
+</details>
+
+<details>
+<summary>🧱 <b>Lezione_2</b> — 10 file</summary>
+
+- [`esempio_due_file/Counter.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_2/esempio_due_file/Counter.java)
+- [`metodo_decremento/Counter.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_2/metodo_decremento/Counter.java)
+- [`costruttori_multipli/Counter.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_2/costruttori_multipli/Counter.java)
+- [`metodi_equal_copy/Counter.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_2/metodi_equal_copy/Counter.java)
+- [`esempi_un_file/Esempio2.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_2/esempi_un_file/Esempio2.java)
+- [`esempio_due_file/Esempio.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_2/esempio_due_file/Esempio.java)
+- [`metodo_decremento/Esempio.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_2/metodo_decremento/Esempio.java)
+- [`esempi_un_file/Esempio.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_2/esempi_un_file/Esempio.java)
+- [`costruttori_multipli/Esempio.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_2/costruttori_multipli/Esempio.java)
+- [`metodi_equal_copy/Esempio.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_2/metodi_equal_copy/Esempio.java)
+
+</details>
+
+<details>
+<summary>🔁 <b>Lezione_3</b> — 5 file</summary>
+
+- [`Overload/Counter.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_3/Overload/Counter.java)
+- [`Oggetti_Composti/Esempio_orologio/Counter.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_3/Oggetti_Composti/Esempio_orologio/Counter.java)
+- [`Overload/Esempio.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_3/Overload/Esempio.java)
+- [`Oggetti_Composti/Esempio_orologio/EsempioOrologio.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_3/Oggetti_Composti/Esempio_orologio/EsempioOrologio.java)
+- [`Oggetti_Composti/Esempio_orologio/Orologio.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_3/Oggetti_Composti/Esempio_orologio/Orologio.java)
+
+</details>
+
+<details>
+<summary>🔤 <b>Lezione_4</b> — 9 file</summary>
+
+- [`stringhe/Concatenazione.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_4/stringhe/Concatenazione.java)
+- [`stringhe/ConfrontoStringhe.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_4/stringhe/ConfrontoStringhe.java)
+- [`esercizio/Counter.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_4/esercizio/Counter.java)
+- [`stringhe/Counter.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_4/stringhe/Counter.java)
+- [`esercizio/CounterDec.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_4/esercizio/CounterDec.java)
+- [`esercizio/EsempioCounterDec.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_4/esercizio/EsempioCounterDec.java)
+- [`stringhe/EsempioStringBuffer.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_4/stringhe/EsempioStringBuffer.java)
+- [`stringhe/Immutabilita.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_4/stringhe/Immutabilita.java)
+- [`stringhe/Oggetti.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_4/stringhe/Oggetti.java)
+
+</details>
+
+<details>
+<summary>📦 <b>Lezione_5</b> — 11 file</summary>
+
+- [`array_es1/ArrayStringhe.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_5/array_es1/ArrayStringhe.java)
+- [`es_9lab/Counter.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_5/es_9lab/Counter.java)
+- [`array_es2/Counter.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_5/array_es2/Counter.java)
+- [`array_es2/EsempiArray.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_5/array_es2/EsempiArray.java)
+- [`import static/Esempio.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_5/import%20static/Esempio.java)
+- [`array_es2/EsempioArrayOggetti.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_5/array_es2/EsempioArrayOggetti.java)
+- [`wrapper/EsempioWrapper.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_5/wrapper/EsempioWrapper.java)
+- [`es_10lab/Esercizio.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_5/es_10lab/Esercizio.java)
+- [`es_9lab/Esercizio.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_5/es_9lab/Esercizio.java)
+- [`es_9lab/Orologio.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_5/es_9lab/Orologio.java)
+- [`variabili_locali_nei_metodi/Tabellina.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_5/variabili_locali_nei_metodi/Tabellina.java)
+
+</details>
+
+<details>
+<summary>🧬 <b>Lezione_6</b> — 27 file</summary>
+
+- [`ereditarietà/Esercizio Alieni/Alieno.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_6/ereditariet%C3%A0/Esercizio%20Alieni/Alieno.java)
+- [`ereditarietà/Esempio BiCounter/BiCounter.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_6/ereditariet%C3%A0/Esempio%20BiCounter/BiCounter.java)
+- [`polimorfismo e subtyping/esempio_2/BiCounter.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_6/polimorfismo%20e%20subtyping/esempio_2/BiCounter.java)
+- [`polimorfismo e subtyping/esempio_1/BiCounter.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_6/polimorfismo%20e%20subtyping/esempio_1/BiCounter.java)
+- [`polimorfismo e subtyping/esempio_2/CentoCounter.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_6/polimorfismo%20e%20subtyping/esempio_2/CentoCounter.java)
+- [`ereditarietà/Esempio BiCounter/Counter.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_6/ereditariet%C3%A0/Esempio%20BiCounter/Counter.java)
+- [`polimorfismo e subtyping/esempio_2/Counter.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_6/polimorfismo%20e%20subtyping/esempio_2/Counter.java)
+- [`polimorfismo e subtyping/esempio_1/Counter.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_6/polimorfismo%20e%20subtyping/esempio_1/Counter.java)
+- [`polimorfismo e subtyping/esercizio_dottori_pazienti/Dottore.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_6/polimorfismo%20e%20subtyping/esercizio_dottori_pazienti/Dottore.java)
+- [`polimorfismo e subtyping/esercizio_dottori_pazienti/Fattura.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_6/polimorfismo%20e%20subtyping/esercizio_dottori_pazienti/Fattura.java)
+- [`ereditarietà/Esercizio Alieni/GruppoAlieni.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_6/ereditariet%C3%A0/Esercizio%20Alieni/GruppoAlieni.java)
+- [`ereditarietà/Esempio Persona/Main.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_6/ereditariet%C3%A0/Esempio%20Persona/Main.java)
+- [`ereditarietà/Esempio BiCounter/Main.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_6/ereditariet%C3%A0/Esempio%20BiCounter/Main.java)
+- [`ereditarietà/Esercizio Alieni/Main.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_6/ereditariet%C3%A0/Esercizio%20Alieni/Main.java)
+- [`polimorfismo e subtyping/esempio_2/Main.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_6/polimorfismo%20e%20subtyping/esempio_2/Main.java)
+- [`polimorfismo e subtyping/esempio_1/Main.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_6/polimorfismo%20e%20subtyping/esempio_1/Main.java)
+- [`polimorfismo e subtyping/esempio_polimorfismo_persona/Main.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_6/polimorfismo%20e%20subtyping/esempio_polimorfismo_persona/Main.java)
+- [`polimorfismo e subtyping/esercizio_dottori_pazienti/Main.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_6/polimorfismo%20e%20subtyping/esercizio_dottori_pazienti/Main.java)
+- [`ereditarietà/Esercizio Alieni/Marshmallow.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_6/ereditariet%C3%A0/Esercizio%20Alieni/Marshmallow.java)
+- [`ereditarietà/Esercizio Alieni/Orco.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_6/ereditariet%C3%A0/Esercizio%20Alieni/Orco.java)
+- [`polimorfismo e subtyping/esercizio_dottori_pazienti/Paziente.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_6/polimorfismo%20e%20subtyping/esercizio_dottori_pazienti/Paziente.java)
+- [`ereditarietà/Esempio Persona/Persona.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_6/ereditariet%C3%A0/Esempio%20Persona/Persona.java)
+- [`polimorfismo e subtyping/esempio_polimorfismo_persona/Persona.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_6/polimorfismo%20e%20subtyping/esempio_polimorfismo_persona/Persona.java)
+- [`polimorfismo e subtyping/esercizio_dottori_pazienti/Persona.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_6/polimorfismo%20e%20subtyping/esercizio_dottori_pazienti/Persona.java)
+- [`ereditarietà/Esercizio Alieni/Serpente.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_6/ereditariet%C3%A0/Esercizio%20Alieni/Serpente.java)
+- [`ereditarietà/Esempio Persona/Studente.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_6/ereditariet%C3%A0/Esempio%20Persona/Studente.java)
+- [`polimorfismo e subtyping/esempio_polimorfismo_persona/Studente.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Lezione_6/polimorfismo%20e%20subtyping/esempio_polimorfismo_persona/Studente.java)
+
+</details>
+
+<details>
+<summary>🎓 <b>Tutorato</b> — 4 file</summary>
+
+- [`Tutorato_1/Esercizio_1/CoppiaDiNumeri.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Tutorato/Tutorato_1/Esercizio_1/CoppiaDiNumeri.java)
+- [`Tutorato_1/Esercizio_1/Esercizio.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Tutorato/Tutorato_1/Esercizio_1/Esercizio.java)
+- [`Tutorato_1/Esercizio_3/FrequenzaCarattere.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Tutorato/Tutorato_1/Esercizio_3/FrequenzaCarattere.java)
+- [`Tutorato_1/Esercizio_2/NumeriSottoLaMedia.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/Tutorato/Tutorato_1/Esercizio_2/NumeriSottoLaMedia.java)
+
+</details>
+
+> *Sezione generata automaticamente: non modificarla a mano.*
 
 <!-- STRUCTURE:END -->
 
