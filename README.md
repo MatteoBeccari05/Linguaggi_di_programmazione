@@ -1,50 +1,201 @@
-# ☕ Linguaggi_di_programmazione
+<div align="center">
 
-![Java](https://img.shields.io/badge/Language-Java-orange?style=flat-square&logo=java)
-![Status](https://img.shields.io/badge/Status-In_Progress-brightgreen?style=flat-square)
+# ☕ Linguaggi di Programmazione
 
-Questa repository contiene una raccolta di programmi ed esercizi scritti in **Java**. Il codice qui presente è stato sviluppato come parte del corso di Linguaggi di Programmazione, per esplorare e mettere in pratica i concetti fondamentali del linguaggio.
+### Il mio percorso in **Java** durante il corso dell'**Università degli Studi di Ferrara**
+
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/technologies/downloads/)
+[![Università di Ferrara](https://img.shields.io/badge/UniFe-Linguaggi_di_Programmazione-8B0000?style=for-the-badge&logo=academia&logoColor=white)](https://www.unife.it/)
+[![Status](https://img.shields.io/badge/Status-In_Progress-brightgreen?style=for-the-badge)](#-roadmap)
+[![Last Commit](https://img.shields.io/github/last-commit/MatteoBeccari05/Linguaggi_di_programmazione?style=for-the-badge&color=blue)](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/commits/main)
+[![Stars](https://img.shields.io/github/stars/MatteoBeccari05/Linguaggi_di_programmazione?style=for-the-badge&color=yellow)](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/stargazers)
+
+*Dall'«Hello World!» al polimorfismo: esercizi, esperimenti e appunti in codice.*
+
+[📂 Struttura](#-struttura-della-repository) •
+[🧠 Argomenti](#-argomenti-trattati) •
+[🚀 Come eseguire](#-come-compilare-ed-eseguire-il-codice) •
+[🗺️ Roadmap](#-roadmap) •
+[👤 Autore](#-autore)
+
+</div>
+
+---
+
+## 📖 Introduzione
+
+Questa repository raccoglie tutti i programmi e gli esercizi in **Java** sviluppati durante il corso di **Linguaggi di Programmazione**. Ogni cartella corrisponde a una lezione e aggiunge un tassello al percorso: si parte dalle basi della sintassi e si arriva ai pilastri della **programmazione orientata agli oggetti**.
+
+Può essere utile come:
+
+- 📝 **archivio personale** degli esercizi svolti;
+- 🔎 **riferimento rapido** per ripassare un concetto prima dell'esame;
+- 🤝 **spunto di confronto** per chi segue lo stesso corso.
+
+> [!NOTE]
+> Il codice è scritto a scopo didattico: la priorità è la chiarezza, non l'ottimizzazione.
+
+---
 
 ## 📂 Struttura della Repository
 
-Il progetto è organizzato in cartelle progressive che seguono l'andamento delle lezioni:
+| # | Cartella | Contenuto | Argomenti chiave |
+|:-:|----------|-----------|------------------|
+| 1 | 📁 [**Lezione_1**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_1) | Concetti introduttivi | `Hello World!`, struttura di un programma, compilazione |
+| 2 | 📁 [**Lezione_2**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_2) | Primi esercizi con la classe `Counter` | classi, campi, metodi, costruttori |
+| 3 | 📁 [**Lezione_3**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_3) | Overload e oggetti composti | overloading, composizione, riferimenti |
+| 4 | 📁 [**Lezione_4**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_4) | Esercizi sulle stringhe | `String`, immutabilità, metodi di manipolazione |
+| 5 | 📁 [**Lezione_5**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_5) | Array e wrapper | array mono/multidimensionali, classi wrapper, autoboxing |
+| 6 | 📁 [**Lezione_6**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_6) | Ereditarietà e polimorfismo | `extends`, overriding, binding dinamico |
+| ★ | 📁 [**Tutorato**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Tutorato) | Esercizi svolti durante i tutorati | esercizi di consolidamento |
+| ☕ | 📄 [`somma.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/somma.java) | Programma di esempio nella root | ideale per un primo test di compilazione |
 
-*   📁 **[Lezione_1](./Lezione_1)**: Concetti introduttivi (Hello World!).
-*   📁 **[Lezione_2](./Lezione_2)**: Primi esercizi con classe Counter.
-*   📁 **[Lezione_3](./Lezione_3)**: Esercizi su overload ed oggetti composti.
-*   📁 **[Lezione_4](./Lezione_4)**: Esercizi sulle stringhe.
-*   📁 **[Lezione_5](./Lezione_5)**: Esercizi sugli array e sui wrapper.
-*   📁 **[Lezione_6](./Lezione_6)**: Esercizi su ereditarietà e polimorfismo.
-*   📁 **[Tutorato](./Tutorato)**: Esercizi svolti durante i tutorati.
+### 🌳 Vista ad albero
 
-*(La struttura verrà aggiornata man mano che verranno caricate nuove lezioni).*
+```text
+Linguaggi_di_programmazione/
+├── 📁 Lezione_1/      → Hello World!
+├── 📁 Lezione_2/      → Classe Counter
+├── 📁 Lezione_3/      → Overload & oggetti composti
+├── 📁 Lezione_4/      → Stringhe
+├── 📁 Lezione_5/      → Array & wrapper
+├── 📁 Lezione_6/      → Ereditarietà & polimorfismo
+├── 📁 Tutorato/       → Esercizi dei tutorati
+├── 📄 somma.java
+├── 📄 .gitattributes
+└── 📄 README.md
+```
+
+> *La struttura verrà aggiornata man mano che verranno caricate nuove lezioni.*
+
+---
+
+## 🧠 Argomenti trattati
+
+```mermaid
+flowchart LR
+    A["🟢 Basi<br/>Hello World"] --> B["🧱 Classi e oggetti<br/>Counter"]
+    B --> C["🔁 Overload<br/>Composizione"]
+    C --> D["🔤 Stringhe"]
+    D --> E["📦 Array<br/>Wrapper"]
+    E --> F["🧬 Ereditarietà<br/>Polimorfismo"]
+```
+
+<details>
+<summary><b>📌 Clicca per vedere il dettaglio dei concetti</b></summary>
+
+<br>
+
+- **Fondamenti** – struttura di una classe, metodo `main`, compilazione ed esecuzione con `javac` / `java`.
+- **Classi e oggetti** – stato e comportamento, costruttori, incapsulamento (esempio guida: `Counter`).
+- **Overload e composizione** – più metodi con lo stesso nome ma firme diverse; oggetti che contengono altri oggetti.
+- **Stringhe** – gli oggetti `String` e la loro immutabilità, confronto, ricerca, estrazione e trasformazione di testo.
+- **Array e wrapper** – collezioni di dimensione fissa, classi involucro (`Integer`, `Double`, …), boxing e unboxing.
+- **Ereditarietà e polimorfismo** – riuso del codice con `extends`, ridefinizione dei metodi, selezione dinamica del metodo a runtime.
+
+</details>
+
+---
 
 ## 🚀 Come compilare ed eseguire il codice
 
-Per eseguire i programmi presenti in questa repository, è necessario avere installato il [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/downloads/) sul proprio computer.
+### ✅ Prerequisiti
 
-1. **Clona la repository** sul tuo computer:
-   ```bash
-   git clone https://github.com/MatteoBeccari05/Linguaggi_di_programmazione.git
-   ```
+- [**JDK**](https://www.oracle.com/java/technologies/downloads/) (Java Development Kit) installato.
+  Verifica con:
+  ```bash
+  java -version
+  javac -version
+  ```
+- [**Git**](https://git-scm.com/) per clonare la repository (facoltativo: puoi anche scaricare lo ZIP da GitHub).
 
-2. **Spostati nella cartella** in cui si trova il file che desideri eseguire (es. la root o una delle cartelle delle lezioni):
-   ```bash
-   cd Linguaggi_di_programmazione
-   ```
+### ⚡ Quick start
 
-3. **Compila** il file sorgente `.java`:
-   ```bash
-   javac nome_del_file.java
-   ```
-   *(Esempio: `javac somma.java`)*
+```bash
+# 1️⃣ Clona la repository
+git clone https://github.com/MatteoBeccari05/Linguaggi_di_programmazione.git
 
-4. **Esegui** il programma compilato:
-   ```bash
-   java nome_del_file
-   ```
-   *(Esempio: `java somma`)*
+# 2️⃣ Entra nella cartella del progetto
+cd Linguaggi_di_programmazione
+
+# 3️⃣ Compila un file sorgente
+javac somma.java
+
+# 4️⃣ Esegui il programma
+java somma
+```
+
+### 📁 Eseguire un esercizio di una lezione
+
+```bash
+cd Lezione_2
+javac *.java        # compila tutti i file della cartella
+java NomeClasse     # esegui la classe che contiene il main
+```
+
+> [!TIP]
+> Se la classe appartiene a un **package** (cioè inizia con `package nome;`), compila e lancia dalla cartella *superiore* al package:
+> ```bash
+> javac nome/*.java
+> java nome.NomeClasse
+> ```
+
+> [!WARNING]
+> Se il file `.java` è nella root, il nome del file deve coincidere con quello della classe `public` al suo interno. Per questo si usa `javac nome_file.java` e poi `java nome_classe` (**senza** estensione).
+
+### 🛠️ Problemi comuni
+
+| Errore | Causa probabile | Soluzione |
+|--------|-----------------|-----------|
+| `'javac' non è riconosciuto…` | JDK non installato o non nel `PATH` | Installa il JDK e riavvia il terminale |
+| `Error: Could not find or load main class` | Sei nella cartella sbagliata o c'è un package | Controlla la cartella e il nome completo della classe |
+| `class X is public, should be declared in a file named X.java` | Nome file ≠ nome classe | Rinomina il file o la classe |
+
+---
+
+## 🗺️ Roadmap
+
+- [x] Lezione 1 – Concetti introduttivi
+- [x] Lezione 2 – Classe `Counter`
+- [x] Lezione 3 – Overload e oggetti composti
+- [x] Lezione 4 – Stringhe
+- [x] Lezione 5 – Array e wrapper
+- [x] Lezione 6 – Ereditarietà e polimorfismo
+- [x] Tutorato 1
+- [ ] Prossime lezioni (classi astratte, interfacce, eccezioni, …)
+- [ ] Ulteriori tutorati
+
+---
+
+## 🤝 Contribuire
+
+Hai trovato un errore o un modo più elegante di risolvere un esercizio? Sei il benvenuto!
+
+1. Fai un **fork** della repository
+2. Crea un branch: `git checkout -b miglioria/nome-esercizio`
+3. Fai commit delle modifiche: `git commit -m "Descrizione della modifica"`
+4. Fai push: `git push origin miglioria/nome-esercizio`
+5. Apri una **Pull Request**
+
+---
 
 ## 👤 Autore
 
-* **Matteo Beccari** - [@MatteoBeccari05](https://github.com/MatteoBeccari05)
+<div align="center">
+
+**Matteo Beccari**
+Studente presso l'Università degli Studi di Ferrara
+
+[![GitHub](https://img.shields.io/badge/GitHub-@MatteoBeccari05-181717?style=for-the-badge&logo=github)](https://github.com/MatteoBeccari05)
+
+</div>
+
+---
+
+<div align="center">
+
+⭐ **Se questa repository ti è stata utile, lascia una stella!** ⭐
+
+*Fatto con ☕ e tanta pazienza.*
+
+</div>
