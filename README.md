@@ -40,6 +40,130 @@ Può essere utile come:
 ## 📂 Struttura della Repository
 
 <!-- STRUCTURE:START -->
+
+| Cartella | Descrizione | File `.java` |
+|----------|-------------|:------------:|
+| 📁 [**Lezione_1**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_1) | Concetti introduttivi (Hello World!) | 2 |
+| 📁 [**Lezione_2**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_2) | Primi esercizi con classe Counter | 10 |
+| 📁 [**Lezione_3**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_3) | Esercizi su overload ed oggetti composti | 5 |
+| 📁 [**Lezione_4**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_4) | Esercizi sulle stringhe | 9 |
+| 📁 [**Lezione_5**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_5) | Esercizi sugli array e sui wrapper | 11 |
+| 📁 [**Lezione_6**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_6) | Esercizi su ereditarietà e polimorfismo | 27 |
+| 📁 [**Tutorato**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Tutorato) | Esercizi svolti durante i tutorati | 4 |
+| 📄 [`somma.java`](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/somma.java) | File nella root | 1 |
+
+```text
+Linguaggi_di_programmazione/
+├── Lezione_1/
+│   ├── Hello.java
+│   └── lettura.java
+├── Lezione_2/
+│   ├── costruttori_multipli/
+│   │   ├── Counter.java
+│   │   └── Esempio.java
+│   ├── esempi_un_file/
+│   │   ├── Esempio2.java
+│   │   └── Esempio.java
+│   ├── esempio_due_file/
+│   │   ├── Counter.java
+│   │   └── Esempio.java
+│   ├── metodi_equal_copy/
+│   │   ├── Counter.java
+│   │   └── Esempio.java
+│   └── metodo_decremento/
+│       ├── Counter.java
+│       └── Esempio.java
+├── Lezione_3/
+│   ├── Oggetti_Composti/
+│   │   └── Esempio_orologio/
+│   │       ├── Counter.java
+│   │       ├── EsempioOrologio.java
+│   │       └── Orologio.java
+│   └── Overload/
+│       ├── Counter.java
+│       └── Esempio.java
+├── Lezione_4/
+│   ├── esercizio/
+│   │   ├── Counter.java
+│   │   ├── CounterDec.java
+│   │   └── EsempioCounterDec.java
+│   └── stringhe/
+│       ├── Concatenazione.java
+│       ├── ConfrontoStringhe.java
+│       ├── Counter.java
+│       ├── EsempioStringBuffer.java
+│       ├── Immutabilita.java
+│       └── Oggetti.java
+├── Lezione_5/
+│   ├── array_es1/
+│   │   └── ArrayStringhe.java
+│   ├── array_es2/
+│   │   ├── Counter.java
+│   │   ├── EsempiArray.java
+│   │   └── EsempioArrayOggetti.java
+│   ├── es_9lab/
+│   │   ├── Counter.java
+│   │   ├── Esercizio.java
+│   │   └── Orologio.java
+│   ├── es_10lab/
+│   │   └── Esercizio.java
+│   ├── import static/
+│   │   └── Esempio.java
+│   ├── variabili_locali_nei_metodi/
+│   │   └── Tabellina.java
+│   └── wrapper/
+│       └── EsempioWrapper.java
+├── Lezione_6/
+│   ├── ereditarietà/
+│   │   ├── Esempio BiCounter/
+│   │   │   ├── BiCounter.java
+│   │   │   ├── Counter.java
+│   │   │   └── Main.java
+│   │   ├── Esempio Persona/
+│   │   │   ├── Main.java
+│   │   │   ├── Persona.java
+│   │   │   └── Studente.java
+│   │   └── Esercizio Alieni/
+│   │       ├── Alieno.java
+│   │       ├── GruppoAlieni.java
+│   │       ├── Main.java
+│   │       ├── Marshmallow.java
+│   │       ├── Orco.java
+│   │       └── Serpente.java
+│   └── polimorfismo e subtyping/
+│       ├── esempio_1/
+│       │   ├── BiCounter.java
+│       │   ├── Counter.java
+│       │   └── Main.java
+│       ├── esempio_2/
+│       │   ├── BiCounter.java
+│       │   ├── CentoCounter.java
+│       │   ├── Counter.java
+│       │   └── Main.java
+│       ├── esempio_polimorfismo_persona/
+│       │   ├── Main.java
+│       │   ├── Persona.java
+│       │   └── Studente.java
+│       └── esercizio_dottori_pazienti/
+│           ├── Dottore.java
+│           ├── Fattura.java
+│           ├── Main.java
+│           ├── Paziente.java
+│           └── Persona.java
+├── Tutorato/
+│   └── Tutorato_1/
+│       ├── Esercizio_1/
+│       │   ├── CoppiaDiNumeri.java
+│       │   └── Esercizio.java
+│       ├── Esercizio_2/
+│       │   └── NumeriSottoLaMedia.java
+│       └── Esercizio_3/
+│           └── FrequenzaCarattere.java
+└── somma.java
+```
+
+> *Sezione generata automaticamente: non modificarla a mano.*
+
 <!-- STRUCTURE:END -->
 
 ---
