@@ -4,8 +4,8 @@
 Il testo tra <!-- STRUCTURE:START --> e <!-- STRUCTURE:END --> viene
 sostituito con:
   - un riepilogo (cartelle e file .java totali);
-  - una tabella con icona, argomento, concetti chiave, numero di file e link;
-  - un elenco a comparsa, per ogni cartella, con i link ai singoli file.
+  - una tabella con icona, cartella (cliccabile), argomento, concetti chiave
+    e numero di file.
 
 Le informazioni sulle cartelle si modificano in .github/descrizioni.json:
   "Lezione_7": {"icona": "🧩", "titolo": "...", "tag": ["a", "b"]}
@@ -41,11 +41,6 @@ def badge(label: str, value, color: str) -> str:
             f"?style=flat-square&logo=openjdk&logoColor=white)")
 
 
-def button(text: str, link: str) -> str:
-    return (f"[![{text}](https://img.shields.io/badge/{quote(text)}-→-0366d6"
-            f"?style=flat-square)]({link})")
-
-
 def info(descr: dict, name: str) -> dict:
     d = descr.get(name, {})
     if isinstance(d, str):
@@ -72,35 +67,25 @@ def main():
         f"{badge('cartelle', len(folders), 'blue')} "
         f"{badge('file%20Java', totale, 'ED8B00')}",
         "",
-        "| | Cartella | Argomento | Concetti chiave | File | |",
-        "|:-:|----------|-----------|-----------------|:----:|:-:|",
+        "| | Cartella | Argomento | Concetti chiave | File |",
+        "|:-:|----------|-----------|-----------------|:----:|",
     ]
     for d in folders:
         i = info(descr, d.name)
         tags = " ".join(f"`{t}`" for t in i["tag"]) or "—"
         n = len(java_files(d))
         out.append(
-            f"| {i['icona']} | **{d.name}** | {i['titolo']} | {tags} "
-            f"| {badge('file', n, 'ED8B00')} | {button('Apri', url(d, 'tree'))} |"
+            f"| {i['icona']} | [**{d.name}**]({url(d, 'tree')}) | {i['titolo']} | {tags} "
+            f"| {badge('file', n, 'ED8B00')} |"
         )
     for f in root_java:
         out.append(
-            f"| 📄 | **{f.name}** | File nella root | — "
-            f"| {badge('file', 1, 'ED8B00')} | {button('Apri', url(f, 'blob'))} |"
+            f"| 📄 | [**{f.name}**]({url(f, 'blob')}) | File nella root | — "
+            f"| {badge('file', 1, 'ED8B00')} |"
         )
 
-    out += ["", "#### 🔎 Esplora i file", ""]
-    for d in folders:
-        files = java_files(d)
-        i = info(descr, d.name)
-        out.append(f"<details>\n<summary>{i['icona']} <b>{d.name}</b> — {len(files)} file</summary>\n")
-        if files:
-            out += [f"- [`{f.relative_to(d).as_posix()}`]({url(f, 'blob')})" for f in files]
-        else:
-            out.append("- *Nessun file `.java` per ora.*")
-        out.append("\n</details>\n")
-
-    out.append("> *Sezione generata automaticamente: non modificarla a mano.*")
+    out.append("")
+    out.append("> *Tabella generata automaticamente: non modificarla a mano.*")
     block = f"{START}\n\n" + "\n".join(out) + f"\n\n{END}"
 
     text = README.read_text(encoding="utf-8")
