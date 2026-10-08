@@ -41,7 +41,7 @@ Può essere utile come:
 
 <!-- STRUCTURE:START -->
 
-![cartelle](https://img.shields.io/badge/cartelle-7-blue?style=flat-square&logo=openjdk&logoColor=white) ![file%20Java](https://img.shields.io/badge/file%20Java-69-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![cartelle](https://img.shields.io/badge/cartelle-7-blue?style=flat-square&logo=openjdk&logoColor=white) ![file%20Java](https://img.shields.io/badge/file%20Java-76-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 
 | | Cartella | Argomento | Concetti chiave | File |
 |:-:|----------|-----------|-----------------|:----:|
@@ -51,7 +51,7 @@ Può essere utile come:
 | 🔤 | [**Lezione_4**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_4) | Esercizi sulle stringhe | `String` `immutabilità` `manipolazione` | ![file](https://img.shields.io/badge/file-9-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
 | 📦 | [**Lezione_5**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_5) | Esercizi sugli array e sui wrapper | `array` `wrapper` `autoboxing` | ![file](https://img.shields.io/badge/file-11-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
 | 🧬 | [**Lezione_6**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione_6) | Esercizi su ereditarietà e polimorfismo | `extends` `overriding` `polimorfismo` | ![file](https://img.shields.io/badge/file-27-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
-| 🎓 | [**Tutorato**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Tutorato) | Esercizi svolti durante i tutorati | `ripasso` `esercizi` | ![file](https://img.shields.io/badge/file-4-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
+| 🎓 | [**Tutorato**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Tutorato) | Esercizi svolti durante i tutorati | `ripasso` `esercizi` | ![file](https://img.shields.io/badge/file-11-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
 | 📄 | [**somma.java**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/somma.java) | File nella root | — | ![file](https://img.shields.io/badge/file-1-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
 
 > *Tabella generata automaticamente: non modificarla a mano.*
