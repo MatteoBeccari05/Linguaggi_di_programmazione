@@ -1,33 +1,38 @@
 {
-  "Lezione_1": {
+  "Lezione 1 - (Primi esempi)": {
     "icona": "🟢",
     "titolo": "Concetti introduttivi (Hello World!)",
     "tag": ["sintassi", "main", "compilazione"]
   },
-  "Lezione_2": {
+  "Lezione 2 - (Prime classi e costruttori multipli)": {
     "icona": "🧱",
     "titolo": "Primi esercizi con classe Counter",
     "tag": ["classi", "campi", "metodi", "costruttori"]
   },
-  "Lezione_3": {
+  "Lezione 3 - (Overload ed oggetti composti)": {
     "icona": "🔁",
     "titolo": "Esercizi su overload ed oggetti composti",
     "tag": ["overload", "composizione", "riferimenti"]
   },
-  "Lezione_4": {
+  "Lezione 4 - (Esercizi stringhe)": {
     "icona": "🔤",
     "titolo": "Esercizi sulle stringhe",
     "tag": ["String", "immutabilità", "manipolazione"]
   },
-  "Lezione_5": {
+  "Lezione 5 - (Array e wrapper)": {
     "icona": "📦",
     "titolo": "Esercizi sugli array e sui wrapper",
     "tag": ["array", "wrapper", "autoboxing"]
   },
-  "Lezione_6": {
+  "Lezione 6 - (Ereditarietà e polimorfismo)": {
     "icona": "🧬",
     "titolo": "Esercizi su ereditarietà e polimorfismo",
     "tag": ["extends", "overriding", "polimorfismo"]
+  },
+  "Lezione 7 - (Object e Classi Astratte)": {
+    "icona": "🧬",
+    "titolo": "Esercizi su classi astratte ed interfacce",
+    "tag": ["interface", "abstract", "class"]
   },
   "Tutorato": {
     "icona": "🎓",
