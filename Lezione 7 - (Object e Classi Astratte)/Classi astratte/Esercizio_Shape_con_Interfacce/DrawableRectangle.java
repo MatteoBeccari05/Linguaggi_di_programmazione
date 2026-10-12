@@ -21,6 +21,6 @@ public class DrawableRectangle extends Rectangle implements Drawable
 
     public void draw() 
     {
-        System.out.println("Rettangolo, posizione: " + x + " " + y + " colore: " + c);
+        System.out.println("Rettangolo, posizione: (" + x + " " + y + ") colore: " + c);
     }
 }

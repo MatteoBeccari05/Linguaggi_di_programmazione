@@ -21,6 +21,6 @@ public class DrawableCircle extends Circle implements Drawable
 
     public void draw() 
     {
-        System.out.println("Cerchio, posizione: " + x + " " + y + " colore: " + c);
+        System.out.println("Cerchio, posizione: (" + x + " " + y + ") colore: " + c);
     }
 }
