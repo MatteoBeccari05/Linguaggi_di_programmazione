@@ -41,7 +41,7 @@ Può essere utile come:
 
 <!-- STRUCTURE:START -->
 
-![cartelle](https://img.shields.io/badge/cartelle-8-blue?style=flat-square&logo=openjdk&logoColor=white) ![file%20Java](https://img.shields.io/badge/file%20Java-101-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![cartelle](https://img.shields.io/badge/cartelle-8-blue?style=flat-square&logo=openjdk&logoColor=white) ![file%20Java](https://img.shields.io/badge/file%20Java-100-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 
 | | Cartella | Argomento | Concetti chiave | File |
 |:-:|----------|-----------|-----------------|:----:|
@@ -53,7 +53,6 @@ Può essere utile come:
 | 🧬 | [**Lezione 6 - (Ereditarietà e polimorfismo)**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione%206%20-%20%28Ereditariet%C3%A0%20e%20polimorfismo%29) | Esercizi su ereditarietà e polimorfismo | `extends` `overriding` `polimorfismo` | ![file](https://img.shields.io/badge/file-27-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
 | 🧬 | [**Lezione 7 - (Object e Classi Astratte)**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione%207%20-%20%28Object%20e%20Classi%20Astratte%29) | Esercizi su classi astratte ed interfacce | `interface` `abstract` `class` | ![file](https://img.shields.io/badge/file-25-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
 | 🎓 | [**Tutorato**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Tutorato) | Esercizi svolti durante i tutorati | `ripasso` `esercizi` | ![file](https://img.shields.io/badge/file-11-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
-| 📄 | [**somma.java**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/blob/main/somma.java) | File nella root | — | ![file](https://img.shields.io/badge/file-1-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
 
 > *Tabella generata automaticamente: non modificarla a mano.*
 
