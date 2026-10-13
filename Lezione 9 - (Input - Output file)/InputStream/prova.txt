@@ -1,0 +1,4 @@
+Questo è un file di prova che simuliamo esista già.
+Contiene alcune righe di testo.
+Stiamo per leggerlo con un programma Java.
+12345 67.89
