@@ -5,34 +5,44 @@
     "tag": ["sintassi", "main", "compilazione"]
   },
   "Lezione 2 - (Prime classi e costruttori multipli)": {
-    "icona": "🧱",
+    "icona": "🟢",
     "titolo": "Primi esercizi con classe Counter",
     "tag": ["classi", "campi", "metodi", "costruttori"]
   },
   "Lezione 3 - (Overload ed oggetti composti)": {
-    "icona": "🔁",
+    "icona": "🟢",
     "titolo": "Esercizi su overload ed oggetti composti",
     "tag": ["overload", "composizione", "riferimenti"]
   },
   "Lezione 4 - (Esercizi stringhe)": {
-    "icona": "🔤",
+    "icona": "🟢",
     "titolo": "Esercizi sulle stringhe",
     "tag": ["String", "immutabilità", "manipolazione"]
   },
   "Lezione 5 - (Array e wrapper)": {
-    "icona": "📦",
+    "icona": "🟢",
     "titolo": "Esercizi sugli array e sui wrapper",
     "tag": ["array", "wrapper", "autoboxing"]
   },
   "Lezione 6 - (Ereditarietà e polimorfismo)": {
-    "icona": "🧬",
+    "icona": "🟢",
     "titolo": "Esercizi su ereditarietà e polimorfismo",
     "tag": ["extends", "overriding", "polimorfismo"]
   },
   "Lezione 7 - (Object e Classi Astratte)": {
-    "icona": "🧬",
+    "icona": "🟢",
     "titolo": "Esercizi su classi astratte ed interfacce",
     "tag": ["interface", "abstract", "class"]
+  },
+  "Lezione 8 - (Eccezioni)": {
+    "icona": "🟢",
+    "titolo": "Esercizi su eccezioni",
+    "tag": ["exception", "try", "catch"]
+  },
+  "Lezione 9 - (Input - Output file)": {
+    "icona": "🟢",
+    "titolo": "Esercizi su input/output file",
+    "tag": ["file", "input", "output"]
   },
   "Tutorato": {
     "icona": "🎓",
