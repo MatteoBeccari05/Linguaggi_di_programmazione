@@ -10,7 +10,7 @@ public class Tabelline
         {
             for (int j = 1; j <= 10; j++)
             {
-                outFile.print((i * j) + "  ");
+                outFile.printf("%5d", (i * j));
             }
             outFile.println();
         }
