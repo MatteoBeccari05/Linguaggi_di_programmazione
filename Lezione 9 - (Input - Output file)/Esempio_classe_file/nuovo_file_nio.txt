@@ -1,0 +1,3 @@
+Questo è un esempio di I/O moderno in Java.
+Usiamo la classe Files introdotta con NIO.
+Non servono né Scanner né PrintWriter!
