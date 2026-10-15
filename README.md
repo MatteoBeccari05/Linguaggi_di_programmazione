@@ -41,7 +41,7 @@ Può essere utile come:
 
 <!-- STRUCTURE:START -->
 
-![cartelle](https://img.shields.io/badge/cartelle-10-blue?style=flat-square&logo=openjdk&logoColor=white) ![file%20Java](https://img.shields.io/badge/file%20Java-127-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![cartelle](https://img.shields.io/badge/cartelle-10-blue?style=flat-square&logo=openjdk&logoColor=white) ![file%20Java](https://img.shields.io/badge/file%20Java-144-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 
 | | Cartella | Argomento | Concetti chiave | File |
 |:-:|----------|-----------|-----------------|:----:|
@@ -54,7 +54,7 @@ Può essere utile come:
 | 🟢 | [**Lezione 7 - (Object e Classi Astratte)**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione%207%20-%20%28Object%20e%20Classi%20Astratte%29) | Esercizi su classi astratte ed interfacce | `interface` `abstract` `class` | ![file](https://img.shields.io/badge/file-25-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
 | 🟢 | [**Lezione 8 - (Eccezioni)**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione%208%20-%20%28Eccezioni%29) | Esercizi su eccezioni | `exception` `try` `catch` | ![file](https://img.shields.io/badge/file-15-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
 | 🟢 | [**Lezione 9 - (Input - Output file)**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione%209%20-%20%28Input%20-%20Output%20file%29) | Esercizi su input/output file | `file` `input` `output` | ![file](https://img.shields.io/badge/file-12-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
-| 🎓 | [**Tutorato**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Tutorato) | Esercizi svolti durante i tutorati | `ripasso` `esercizi` | ![file](https://img.shields.io/badge/file-11-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
+| 🎓 | [**Tutorato**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Tutorato) | Esercizi svolti durante i tutorati | `ripasso` `esercizi` | ![file](https://img.shields.io/badge/file-28-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
 
 > *Tabella generata automaticamente: non modificarla a mano.*
 
