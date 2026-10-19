@@ -44,6 +44,11 @@
     "titolo": "Esercizi su input/output file",
     "tag": ["file", "input", "output"]
   },
+  "Lezione 10 - (Collezioni)": {
+    "icona": "🟢",
+    "titolo": "Esercizi svolti con collezioni",
+    "tag": ["set", "list", "for-each"]
+  },
   "Tutorato": {
     "icona": "🎓",
     "titolo": "Esercizi svolti durante i tutorati",
