@@ -49,6 +49,16 @@
     "titolo": "Esercizi svolti con collezioni",
     "tag": ["set", "list", "for-each"]
   },
+    "Lezione 11 - (JCF con tipi generici)": {
+    "icona": "🟢",
+    "titolo": "Esercizi svolti con collezioni e tipi generici",
+    "tag": ["collection", "list", "for-each"]
+  },
+      "Lezione 12 - (Generici)": {
+    "icona": "🟢",
+    "titolo": "Esercizi svolti durante la lezione del 20 ottobre con tipi generici",
+    "tag": ["collection", "number", "<List>"]
+  },
   "Tutorato": {
     "icona": "🎓",
     "titolo": "Esercizi svolti durante i tutorati",
