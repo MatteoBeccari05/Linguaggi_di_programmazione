@@ -6,11 +6,11 @@ public class Socio
     private int codice, eta, categoria;
     protected List<Prenotazione> prenotazioni;
 
-    public Socio(int c, String n, int e, int categoria) 
+    public Socio(int codice, String nome_cognome, int eta, int categoria) 
     {
-        codice = c;
-        nome_cognome = n;
-        eta = e;
+        this.codice = codice;
+        this.nome_cognome = nome_cognome;
+        this.eta = eta;
         this.categoria = categoria;
         prenotazioni = new LinkedList<Prenotazione>();
     }
@@ -20,8 +20,9 @@ public class Socio
         prenotazioni.add(p);
     }
 
+@   Override
     public String toString() 
     {
-        return codice + "\t" + nome_cognome + "\t" + eta + "\t" + categoria + "\t" + prenotazioni;
+        return String.format("%4d %28s %4d %4d %s", codice, nome_cognome, eta, categoria, prenotazioni);
     }
 }

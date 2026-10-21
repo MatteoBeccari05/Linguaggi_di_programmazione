@@ -3,6 +3,7 @@ public class Campo
     protected int codice;
     protected String nome;
     protected float larghezza, lunghezza, costo;
+    protected int num_prenotazioni;
 
     public Campo(int codice, String nome, float larghezza, float lunghezza, float costo)
     {
@@ -11,6 +12,17 @@ public class Campo
         this.larghezza = larghezza;
         this.lunghezza = lunghezza;
         this.costo = costo;
+        num_prenotazioni = 0;
+    }
+
+    public void addPrenotazione()
+    {
+        num_prenotazioni++;
+    }
+
+    public float IncassoTotale()
+    {
+        return num_prenotazioni * costo;
     }
 
     @Override

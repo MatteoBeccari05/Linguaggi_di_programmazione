@@ -1,6 +1,6 @@
 public class Prenotazione 
 {
-    int codice_campo, ora_inizio;
+    private int codice_campo, ora_inizio;
 
     public Prenotazione(int codice, int ora)
     {
