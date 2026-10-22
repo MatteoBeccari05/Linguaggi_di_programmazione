@@ -63,5 +63,10 @@
     "icona": "🎓",
     "titolo": "Esercizi svolti durante i tutorati",
     "tag": ["ripasso", "esercizi"]
+  },
+    "ESAMI RISOLTI": {
+    "icona": "🔴",
+    "titolo": "Esami risolti ",
+    "tag": ["ripasso", "esami", "studio"]
   }
 }
