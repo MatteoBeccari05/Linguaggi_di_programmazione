@@ -41,10 +41,11 @@ Può essere utile come:
 
 <!-- STRUCTURE:START -->
 
-![cartelle](https://img.shields.io/badge/cartelle-14-blue?style=flat-square&logo=openjdk&logoColor=white) ![file%20Java](https://img.shields.io/badge/file%20Java-226-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![cartelle](https://img.shields.io/badge/cartelle-15-blue?style=flat-square&logo=openjdk&logoColor=white) ![file%20Java](https://img.shields.io/badge/file%20Java-392-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 
 | | Cartella | Argomento | Concetti chiave | File |
 |:-:|----------|-----------|-----------------|:----:|
+| 🔴 | [**ESAMI RISOLTI**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/ESAMI%20RISOLTI) | Esami risolti  | `ripasso` `esami` `studio` | ![file](https://img.shields.io/badge/file-166-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
 | 🟢 | [**Lezione 1 - (Primi esempi)**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione%201%20-%20%28Primi%20esempi%29) | Concetti introduttivi (Hello World!) | `sintassi` `main` `compilazione` | ![file](https://img.shields.io/badge/file-2-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
 | 🟢 | [**Lezione 2 - (Prime classi e costruttori multipli)**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione%202%20-%20%28Prime%20classi%20e%20costruttori%20multipli%29) | Primi esercizi con classe Counter | `classi` `campi` `metodi` `costruttori` | ![file](https://img.shields.io/badge/file-10-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
 | 🟢 | [**Lezione 3 - (Overload ed oggetti composti)**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione%203%20-%20%28Overload%20ed%20oggetti%20composti%29) | Esercizi su overload ed oggetti composti | `overload` `composizione` `riferimenti` | ![file](https://img.shields.io/badge/file-5-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
