@@ -1,0 +1,24 @@
+1
+Best Car
+Via Verdi 18, Ferrara
+3
+
+2
+Best Car Bis
+Via Rossi 1, Bologna
+5
+
+3
+Vendo Auto
+Via Rosi 8, Modena
+2
+
+4
+Autoconcessionaria Pezzi
+Via Da Vinci 85, Rovigo
+4
+
+5
+Cars&Trucks
+Via Dalì 3, Padova
+6

@@ -1,0 +1,24 @@
+Giovanni Verdi
+1 docente 34
+Filosofia critica
+Via Govoni 3, Ferrara
+Andrea Vannini
+2 studente 21
+22.3
+Via Tramonto 1, Bologna
+Roberto Rossi
+14 docente 40
+Architettura I
+Via Rossi 12, Modena
+Stefania Destro
+22 studente 20
+24.6
+Via Govoni 12, Bologna
+William Cesari
+25 studente 23
+27.6
+Via Indipendenza 12, Bologna
+Roberta Vinci
+27 docente 56
+Reti e internet
+Via Govoni 12, Bologna

@@ -1,0 +1,36 @@
+automobile
+Renault Megane
+ABC1234567890YZ11
+Berlina 5
+5 1.6 130
+3 2 1
+automobile
+Opel Astra Sport Tourer
+XYZ3334477123UY01
+Wagon 5
+5 1.6 95
+2 3
+veicolo commerciale
+Fiat Ducato
+TRB5382740956NNN45
+2 false
+3 2.3 180
+1 5
+automobile
+Nissan Qashqai
+TRE456ABC7658UI99
+Suv 5
+5 1.5 110
+1 5 4
+veicolo commerciale
+Iveco Stralis 
+ZYX098765432123AB45
+3 true
+3 12.9 560
+4 5
+automobile
+Infiniti Q60
+UGG345940268138RT56
+Coupe 3
+2 1.9 211
+1 3 2
