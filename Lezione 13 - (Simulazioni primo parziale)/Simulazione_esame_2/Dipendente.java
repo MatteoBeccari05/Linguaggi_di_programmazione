@@ -16,6 +16,11 @@ public class Dipendente
         return costo_orario;
     }
 
+    public String getNome()
+    {
+        return nome;
+    }
+
     @Override 
     public String toString()
     {

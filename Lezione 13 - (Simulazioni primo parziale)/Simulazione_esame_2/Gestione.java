@@ -13,6 +13,7 @@ public class Gestione
         List<Dipendente> dipendenti = new ArrayList<Dipendente>();
         Map<Integer, Dipendente> codDip = new HashMap<Integer, Dipendente>();
         List<Cliente> clienti = new ArrayList<Cliente>();
+        Map<Dipendente, Integer> dipNserv = new HashMap<>();
 
         try
         {
@@ -36,19 +37,23 @@ public class Gestione
                     Trainer t = new Trainer(codice, nome, costo, ore, specialita);
                     dipendenti.add(t);
                     codDip.put(codice, t);
+                    dipNserv.put(t, 0);
 
                 }
                 else
                 {
                     line = br.readLine();
                     tok = new StringTokenizer(line);
-                    int telefono = Integer.parseInt(tok.nextToken());
+                    long telefono = Long.parseLong(tok.nextToken());
                     boolean medico = Boolean.parseBoolean(tok.nextToken());
                     int appuntamenti = Integer.parseInt(tok.nextToken());
                     double costo = Double.parseDouble(tok.nextToken());
                     Nutrizionista n = new Nutrizionista(codice, nome, costo, telefono, medico, appuntamenti);
                     dipendenti.add(n);
                     codDip.put(codice, n);
+                    dipNserv.put(n, 0);
+                    int servizi = dipNserv.get(n);
+                    dipNserv.put(n, servizi+1);
                 }
                 line = br.readLine();
                 
@@ -87,6 +92,8 @@ public class Gestione
                     Servizio s = new Servizio(ore, d);
                     c.addServizio(s);
                     line = br.readLine();
+
+                    dipNserv.put(d, dipNserv.get(d) + 1);
                 }
                 line = br.readLine();
             }
@@ -101,5 +108,20 @@ public class Gestione
         {
             System.out.println(d);
         }
+
+
+        int s_max = 0;
+        String nome_max = "";
+        for(Dipendente d : dipendenti)
+        {
+            int n_serv = dipNserv.get(d);
+            if(n_serv > s_max)
+            {
+                s_max = n_serv;
+                nome_max = d.getNome();
+            }
+        }
+
+        System.out.println(nome_max);
     }
 }
