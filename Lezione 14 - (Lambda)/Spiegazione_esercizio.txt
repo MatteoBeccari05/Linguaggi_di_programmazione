@@ -1,0 +1,13 @@
+Esercizio 1: Filtraggio e pulizia con Predicate e removeIf
+Obiettivo: Creare un metodo che riceve una lista mutabile di stringhe e 
+rimuove tutti gli elementi non validi usando un predicato composto.
+
+
+Esercizio 2: Elaborazione dati con Function, UnaryOperator e Consumer
+Obiettivo: Trasformare gli elementi di una lista di codici seriali e registrare
+l'operazione su console usando il concatenamento di consumatori e operatori unari.
+
+
+Esercizio 3: Ordinamento multi-criterio e null-safe con Comparator
+Obiettivo: Ordinare una lista di oggetti Persona gestendo campi multipli, 
+valori nulli e inversione dell'ordinamento.
