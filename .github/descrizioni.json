@@ -59,6 +59,16 @@
     "titolo": "Esercizi svolti durante la lezione del 20 ottobre con tipi generici",
     "tag": ["collection", "number", "<List>"]
   },
+    "Lezione 13 - (Simulazioni primo parziale)": {
+    "icona": "🟢",
+    "titolo": "Esercizi svolti in preparazione al primo parziale",
+    "tag": ["exam", "file", "<List>"]
+  },
+  "Lezione 14 - (Lambda)": {
+    "icona": "🟢",
+    "titolo": "Esercizi svolti con operatore lambda",
+    "tag": ["lambda", "expression", "<List>"]
+  },
   "Tutorato": {
     "icona": "🎓",
     "titolo": "Esercizi svolti durante i tutorati",
