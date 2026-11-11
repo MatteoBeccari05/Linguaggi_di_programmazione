@@ -41,7 +41,7 @@ Può essere utile come:
 
 <!-- STRUCTURE:START -->
 
-![cartelle](https://img.shields.io/badge/cartelle-16-blue?style=flat-square&logo=openjdk&logoColor=white) ![file%20Java](https://img.shields.io/badge/file%20Java-434-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![cartelle](https://img.shields.io/badge/cartelle-17-blue?style=flat-square&logo=openjdk&logoColor=white) ![file%20Java](https://img.shields.io/badge/file%20Java-439-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 
 | | Cartella | Argomento | Concetti chiave | File |
 |:-:|----------|-----------|-----------------|:----:|
@@ -60,6 +60,7 @@ Può essere utile come:
 | 🟢 | [**Lezione 12 - (Generici)**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione%2012%20-%20%28Generici%29) | Esercizi svolti durante la lezione del 20 ottobre con tipi generici | `collection` `number` `<List>` | ![file](https://img.shields.io/badge/file-26-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
 | 🟢 | [**Lezione 13 - (Simulazioni primo parziale)**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione%2013%20-%20%28Simulazioni%20primo%20parziale%29) | Esercizi svolti in preparazione al primo parziale | `exam` `file` `<List>` | ![file](https://img.shields.io/badge/file-54-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
 | 🟢 | [**Lezione 14 - (Lambda)**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione%2014%20-%20%28Lambda%29) | Esercizi svolti con operatore lambda | `lambda` `expression` `<List>` | ![file](https://img.shields.io/badge/file-7-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
+| 🟢 | [**Lezione 15 - (Stream API)**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Lezione%2015%20-%20%28Stream%20API%29) | Esercizi svolti con stream API | `API` `function` `map` | ![file](https://img.shields.io/badge/file-5-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
 | 🎓 | [**Tutorato**](https://github.com/MatteoBeccari05/Linguaggi_di_programmazione/tree/main/Tutorato) | Esercizi svolti durante i tutorati | `ripasso` `esercizi` | ![file](https://img.shields.io/badge/file-44-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
 
 > *Tabella generata automaticamente: non modificarla a mano.*
