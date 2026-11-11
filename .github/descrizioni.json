@@ -69,6 +69,11 @@
     "titolo": "Esercizi svolti con operatore lambda",
     "tag": ["lambda", "expression", "<List>"]
   },
+    "Lezione 15 - (Stream API)": {
+    "icona": "🟢",
+    "titolo": "Esercizi svolti con stream API",
+    "tag": ["API", "function", "map"]
+  },
   "Tutorato": {
     "icona": "🎓",
     "titolo": "Esercizi svolti durante i tutorati",
