@@ -28,7 +28,7 @@ public class Piattaforma
 
     public void rimuoviAbbonato(Abbonato abbonato) 
     {
-        abbonati.remove(abbonato);
+        abbonati.removeIf(a -> a.equals(abbonato));
     }
 
     public void comunicaPremio(String premio) 
