@@ -74,6 +74,11 @@
     "titolo": "Esercizi svolti con stream API",
     "tag": ["API", "function", "map"]
   },
+  "Lezione 16 - (JAR e Moduli Java)": {
+    "icona": "🟢",
+    "titolo": "Esercizi svolti con JAR e moduli Java",
+    "tag": ["JAR", "moduli", "Java"]
+  },
   "Tutorato": {
     "icona": "🎓",
     "titolo": "Esercizi svolti durante i tutorati",
