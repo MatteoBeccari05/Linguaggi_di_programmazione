@@ -1,0 +1,68 @@
+----------------------------------------------------------------------
+STRUTTURA DELLE CARTELLE E DEI FILE
+----------------------------------------------------------------------
+Crea una cartella chiamata "progetto" e inserisci al suo interno i due 
+file esattamente con questa gerarchia:
+
+progetto/
+
+├── module-info.java
+└── hw/
+    └── Saluto.java
+
+--- Contenuto di "progetto/module-info.java" ---
+
+module saluto 
+{
+    exports hw;
+}
+
+
+--- Contenuto di "progetto/hw/Saluto.java" ---
+
+package hw;
+public class Saluto
+{
+    public static void main(String[] args) 
+    {
+        System.out.println("Ciao! Il modulo JAR funziona perfettamente.");
+    }
+}
+
+
+----------------------------------------------------------------------
+COMPILAZIONE DEI SORGENTI
+----------------------------------------------------------------------
+Apri il terminale, posizionati nella cartella che contiene "progetto" 
+ed entra dentro di essa:
+
+    cd progetto
+
+Compila entrambi i file Java salvando i file compilati (.class) in una 
+nuova cartella esterna chiamata "target":
+
+    javac -d ../target module-info.java hw/Saluto.java
+
+
+----------------------------------------------------------------------
+CREAZIONE DEL FILE JAR MODULARE
+----------------------------------------------------------------------
+Spostati nella cartella "target" appena creata:
+
+    cd ../target
+
+Crea l'archivio JAR includendo il descrittore del modulo (module-info.class), 
+la classe compilata e indicando quale classe contiene il metodo main:
+
+    jar --create --file saluto.jar --main-class hw.Saluto module-info.class hw/Saluto.class
+
+
+----------------------------------------------------------------------
+ESECUZIONE DEL PROGRAMMA
+----------------------------------------------------------------------
+
+Ora puoi avviare l'applicazione in due modi diversi:
+Utilizza il module-path per far rispettare alla JVM le regole di 
+incapsulamento del modulo:
+
+    java --module-path saluto.jar --module saluto
